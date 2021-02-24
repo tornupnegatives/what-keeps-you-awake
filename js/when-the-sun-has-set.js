@@ -8,10 +8,10 @@ let w = 720;
 let h = 635;
 
 function preload() {
-	sphynx = loadImage('assets/catharsis/sphynx.png');
-	sky = loadImage('assets/catharsis/sky.png');
+	sphynx = loadImage('assets/when-the-sun-has-set/sphynx.png');
+	sky = loadImage('assets/when-the-sun-has-set/sky.png');
 	
-	music = loadSound('assets/catharsis/taylor.mp3');
+	music = loadSound('assets/when-the-sun-has-set/taylor.mp3');
 }
 
 function setup() {
