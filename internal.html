@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ERROR: Array Index Out of Bounds</title>
+	
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<pre style="color: lawngreen">
+ -- It's not you, it's me.
+┌ 291: entry0 ();
+│           ; var int64_t var_3ch @ rbp-0x3c
+│           ; var int64_t var_38h @ rbp-0x38
+│           ; var int64_t var_34h @ rbp-0x34
+│           ; var int64_t var_30h @ rbp-0x30
+│           ; var int64_t var_2ch @ rbp-0x2c
+│           ; var int64_t var_28h @ rbp-0x28
+│           ; var int64_t var_24h @ rbp-0x24
+│           ; var int64_t var_20h @ rbp-0x20
+│           ; var int64_t var_1ch @ rbp-0x1c
+│           ; var int64_t var_18h @ rbp-0x18
+│           ; var int64_t var_14h @ rbp-0x14
+│           ; var uint32_t var_10h @ rbp-0x10
+│           ; var signed int64_t var_ch @ rbp-0xc
+│           ; var int64_t var_8h @ rbp-0x8
+│           ; var int64_t var_4h @ rbp-0x4
+│           0x100000df0      55             push rbp                   ; [00] -r-x section size 291 named 0.__TEXT.__text
+│           0x100000df1      4889e5         mov rbp, rsp
+│           0x100000df4      4883ec40       sub rsp, 0x40
+│           0x100000df8      c745fc000000.  mov dword [var_4h], 0
+│           0x100000dff      488d3d3e0100.  lea rdi, str._nZKJOIFAP(#U$)(_#-3204-=3ixn):_ ; section.3.__TEXT.__cstring
+│                                                                      ; 0x100000f44 ; "\nNNNNNNN~~N~N~N~N~N~N~N~~~~~~~~~~~ " ; const char *format
+│           0x100000e06      b000           mov al, 0
+│           0x100000e08      e807010000     call sym.imp.printf        ; int printf(const char *format)
+│           0x100000e0d      488d3d530100.  lea rdi, [0x100000f67]     ; "%d" ; const char *format
+│           0x100000e14      488d75f8       lea rsi, [var_8h]
+│           0x100000e18      8945e0         mov dword [var_20h], eax
+│           0x100000e1b      b000           mov al, 0
+│           0x100000e1d      e8f8000000     call sym.imp.scanf         ; int scanf(const char *format)
+│           0x100000e22      488d3d410100.  lea rdi, str.Please_enter_an_ending_integer:_ ; 0x100000f6a ; "owq0e0qimczo011239)_Z__!!" ; const char *format
+│           0x100000e29      8945dc         mov dword [var_24h], eax
+│           0x100000e2c      b000           mov al, 0
+│           0x100000e2e      e8e1000000     call sym.imp.printf        ; int printf(const char *format)
+│           0x100000e33      488d3d2d0100.  lea rdi, [0x100000f67]     ; "%d" ; const char *format
+│           0x100000e3a      488d75f4       lea rsi, [var_ch]
+│           0x100000e3e      8945d8         mov dword [var_28h], eax
+│           0x100000e41      b000           mov al, 0
+│           0x100000e43      e8d2000000     call sym.imp.scanf         ; int scanf(const char *format)
+│           0x100000e48      488d3d3c0100.  lea rdi, str.Please_enter_an_increment_for_output:_ ; 0x100000f8b ; "Pj̛͉͖̟̺̹̺̥͙̙͛͒͌̋̈͢͡ķ̥̥̣̦͍̩̿͐̀̃͑͜͡͞ͅƠ̱͓̼̯͔̿̀̉̿̾̕̕Į̴̛̗̘̼̫̉̏̋̊̌̀͠͝Ḑ̴̺̦̗̰͓̤̄́̇̃̒̍̔̾͘͜͝ͅŞ̭̤̭͔̳̠̼̦̆͂͐̓͗͌͛̕͢J̶̧͔̬̝̭͒̓͊̉̏͠͡F͕̳̭̱̤̫̦̅̐͆̒̓͡O͚̙̺̩͕̅͒̅̌̏̃̽̓ͅS̡͚̣̱͔̲̺̝̈̔͑͋̒͟D̨̥̼̯͔̦͈̖͈̀̿͒̇̇͒̂̚͝F̵͓͉̳͐̽̋̑̐̒͛̉͢͜_̶̤͎̦̥̣̏̅͛̌̾͒_̵̨̨͖̟̤͚̟̅̋͆͋̍̌͜͢͠͝_̣̣̮̺̝̾̉̾͂̔̿̌͂Ū͉̮̱̱̗̪̣͙͚̽̍͑͠n̷͔̞̳̫̟̿̅̾͒͗̽́̔l̪͔͈̰̣̮̲͋͋̀̆̽́̊͠ͅo̶̬̦̯̥̓̔̓͆͘ͅͅá̡͔͎̙̹̠̲̗̘̈̽͌͌̀͛͆͟d̷̛̰̯̬͓̅̎̂͑̅͢(̵͙̩̖̻̑͗͊̆̓̾̐͟͠)̵̡̘͉̝͎̟̰͊̀̓̅̄̀͘͢͝ͅ)̡̼̳̳̯͎́̃̉͋͆̒͡" ; const char *format
+│           0x100000e4f      8945d4         mov dword [var_2ch], eax
+│           0x100000e52      b000           mov al, 0
+│           0x100000e54      e8bb000000     call sym.imp.printf        ; int printf(const char *format)
+│           0x100000e59      488d3d070100.  lea rdi, [0x100000f67]     ; "%d" ; const char *format
+│           0x100000e60      488d75f0       lea rsi, [var_10h]
+│           0x100000e64      8945d0         mov dword [var_30h], eax
+│           0x100000e67      b000           mov al, 0
+│           0x100000e69      e8ac000000     call sym.imp.scanf         ; int scanf(const char *format)
+│           0x100000e6e      8b4df8         mov ecx, dword [var_8h]
+│           0x100000e71      894de8         mov dword [var_18h], ecx
+│           0x100000e74      8b4de8         mov ecx, dword [var_18h]
+│           0x100000e77      894dec         mov dword [var_14h], ecx
+│           0x100000e7a      8945cc         mov dword [var_34h], eax
+│           ; CODE XREF from entry0 @ 0x100000f06
+│       ┌─> 0x100000e7d      8b45ec         mov eax, dword [var_14h]
+│       ╎   0x100000e80      3b45f4         cmp eax, dword [var_ch]
+│      ┌──< 0x100000e83      0f8f82000000   jg 0x100000f0b
+│      │╎   0x100000e89      c745e4000000.  mov dword [var_1ch], 0
+│      │╎   0x100000e90      488d3d1b0100.  lea rdi, [0x100000fb2]     ; "\n" ; const char *format
+│      │╎   0x100000e97      b000           mov al, 0
+│      │╎   0x100000e99      e876000000     call sym.imp.printf        ; int printf(const char *format)
+│      │╎   0x100000e9e      8945c8         mov dword [var_38h], eax
+│      │╎   ; CODE XREF from entry0 @ 0x100000eef
+│     ┌───> 0x100000ea1      8b45e4         mov eax, dword [var_1ch]
+│     ╎│╎   0x100000ea4      3b45f0         cmp eax, dword [var_10h]
+│     ╎│╎   0x100000ea7      0f9cc1         setl cl
+│     ╎│╎   0x100000eaa      80e101         and cl, 1
+│     ╎│╎   0x100000ead      0fb6c1         movzx eax, cl
+│     ╎│╎   0x100000eb0      8b55e8         mov edx, dword [var_18h]
+│     ╎│╎   0x100000eb3      0355e4         add edx, dword [var_1ch]
+│     ╎│╎   0x100000eb6      3b55f4         cmp edx, dword [var_ch]
+│     ╎│╎   0x100000eb9      0f9ec1         setle cl
+│     ╎│╎   0x100000ebc      80e101         and cl, 1
+│     ╎│╎   0x100000ebf      0fb6d1         movzx edx, cl
+│     ╎│╎   0x100000ec2      21d0           and eax, edx
+│     ╎│╎   0x100000ec4      83f800         cmp eax, 0
+│    ┌────< 0x100000ec7      0f8427000000   je 0x100000ef4
+│    │╎│╎   0x100000ecd      8b45e8         mov eax, dword [var_18h]
+│    │╎│╎   0x100000ed0      0345e4         add eax, dword [var_1ch]
+│    │╎│╎   0x100000ed3      488d3dda0000.  lea rdi, [0x100000fb4]     ; "%d\t" ; const char *format
+┌─────────────────────────────────────────────────────┐────────────────────────┐
+│[X] Disassembly (pd)                     [Cache] Off │[X]   Functio[Cache] On ││ │           0x100000e29      8945dc         mov dwor│ 0x100000df0    7 291   │
+│ │           0x100000e2c      b000           mov al, │ 0x100000f14    1 6     │
+│ │           0x100000e2e      e8e1000000     call sym│ 0x100000f1a    1 6     │
+│ │           0x100000e33      488d3d2d0100.  lea rdi,│                        │
+│ │           0x100000e3a      488d75f4       lea rsi,│                        │
+│ │           0x100000e3e      8945d8         mov dwor│                        │
+│ │           0x100000e41      b000           mov al, │                        │
+│ │           0x100000e43      e8d2000000     call sym│                        │
+│ │           0x100000e48      488d3d3c0100.  lea rdi,│                        │
+│ │           0x100000e4f      8945d4         mov dwor│────────────────────────┐
+│ │           0x100000e52      b000           mov al, │[X]   Symbols[Cache] On │
+│ │           0x100000e54      e8bb000000     call sym│ 0x100000000 0 __mh_exec│
+│ │           0x100000e59      488d3d070100.  lea rdi,│ 0x100000df0 0 _main    │
+│ │           0x100000e60      488d75f0       lea rsi,│ 0x100002010 0 __dyld_pr│
+│ │           0x100000e64      8945d0         mov dwor│ 0x5e2dcc68 0 /var/folde│
+│ │           0x100000e67      b000           mov al, │ 0x100000f14 0 imp.print│
+│ │           0x100000e69      e8ac000000     call sym│ 0x100000f1a 0 imp.scanf│
+│ │           0x100000e6e      8b4df8         mov ecx,│ 0x100000df0 0 func.1000│
+│ │           0x100000e71      894de8         mov dwor│                        │
+│ │           0x100000e74      8b4de8         mov ecx,│                        │
+└─────────────────────────────────────────────────────┘────────────────────────┘
+	</pre>
+</body>
+</html>
