@@ -1218,7 +1218,7 @@ global.TONE_SILENCE_VERSION_LOGGING = true;
   /**
    * <p>Returns the Audio Context for this sketch. Useful for users
    * who would like to dig deeper into the <a target='_blank' href=
-   * 'http://webaudio.github.io/web-audio-api/'>Web Audio API
+   ../* 'http://webaudio.github.io/web-audio-api/'>Web Audio API
    * </a>.</p>
    *
    * <p>Some browsers require users to startAudioContext
@@ -6153,7 +6153,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
    *  want to add a value to each of those samples, we can't do it in the
    *  draw loop, but we can do it by adding a constant-rate audio signal.</p.
    *
-   *  <p>This class mostly functions behind the scenes in p5.sound, and returns
+   *  ><p>This class mostly functions behind the scenes in p5.sound, and returns
    *  a Tone.Signal from the Tone.js library by Yotam Mann.
    *  If you want to work directly with audio signals for modular
    *  synthesis, check out
@@ -7837,7 +7837,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
   /**
    * Returns a list of available input sources. This is a wrapper
    * for <a title="MediaDevices.enumerateDevices() - Web APIs | MDN" target="_blank" href=
-   *  "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/enumerateDevices"
+   ../*  "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/enumerateDevices"
    *  > and it returns a Promise.
    *
    * @method  getSources
@@ -8300,13 +8300,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
   var Effect = __webpack_require__(4);
   /**
    * Panner3D is based on the <a title="Web Audio Panner docs"  href=
-   * "https://developer.mozilla.org/en-US/docs/Web/API/PannerNode">
+   ../* "https://developer.mozilla.org/en-US/docs/Web/API/PannerNode">
    * Web Audio Spatial Panner Node</a>.
    * This panner is a spatial processing node that allows audio to be positioned
    * and oriented in 3D space.
    *
    * The position is relative to an <a title="Web Audio Listener docs" href=
-   * "https://developer.mozilla.org/en-US/docs/Web/API/AudioListener">
+   ../* "https://developer.mozilla.org/en-US/docs/Web/API/AudioListener">
    * Audio Context Listener</a>, which can be accessed
    * by <code>p5.soundOut.audiocontext.listener</code>
    *
@@ -8320,7 +8320,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
     Effect.call(this);
     /**
      *  <a title="Web Audio Panner docs"  href=
-     *  "https://developer.mozilla.org/en-US/docs/Web/API/PannerNode">
+     ../*  "https://developer.mozilla.org/en-US/docs/Web/API/PannerNode">
      *  Web Audio Spatial Panner Node</a>
      *
      *  Properties include
