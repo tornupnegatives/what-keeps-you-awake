@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>What Keeps You Awake?</title>
+	
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<script>
+		let drive = window.open("drive.html", "", "width=600,height=338,top=92,left=95");
+		let radio = window.open("radio.html", "", "width=850,height=250,top=500,left=115");
+		let door  = window.open("the-door.html", "", "width=360,height=432,top=120,left=1000");
+		let happy = window.open("are-you-happy.html", "", "width=350,height=200,top=700,left=1000");
+		
+		radio.onunload = function catharsis(){
+			if (drive.closed && door.closed && happy.closed) {
+				let endOfDays = window.open("when-the-sun-has-set.html", "", "width=720,height=635,top=500,left=100");
+			}
+		}
+		
+		door.onunload = function distortion(){
+			if (drive.closed && radio.closed && happy.closed) {
+				let distortion = window.open("distortion.html", "");
+			}
+		}
+		
+		happy.onunload = function internal(){
+			if (drive.closed && radio.closed && door.closed) {
+				let internal = window.open("internal.html", "");
+			}
+		}
+		
+		drive.onunload = function internal(){
+			if (happy.closed && radio.closed && door.closed) {
+				let notFound = window.open("not-found.html", "");
+			}
+		}
+	</script>
+</body>
+</html>
