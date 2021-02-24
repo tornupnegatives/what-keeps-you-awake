@@ -3,6 +3,8 @@
 "What Keeps You Awake" is a net art site that explores the dark side of our relationship with the Internet and other information technology.
 It was written in HTML and Javascript using the p5js as part of a project for SOAD-S 210.
 
+Please note that this site relies heavily on pop-ups as an artistic medium. These windows are best rendered in Firefox, and sizing errors may occur in other browsers. Audio does NOT work in Safari.
+
 # Acknowledgements
 The following Javascript modules are included as part of this repository to maintain compatibility
 * [p5js and p5sound](https://p5js.org)
